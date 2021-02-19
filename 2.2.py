@@ -14,8 +14,6 @@ for num in list_symbol:
 
 print(list_symbol)
 
-line = (f'{list_symbol[0]} {list_symbol[1]}{list_symbol[2]}{list_symbol[3]} {list_symbol[4]} {list_symbol[5]}'
-        f'{list_symbol[6]}{list_symbol[7]} {list_symbol[8]} {list_symbol[9]} {list_symbol[10]} {list_symbol[11]} '
-        f'{list_symbol[12]}{list_symbol[13]}{list_symbol[14]} {list_symbol[15]}')
-
-print(line)
+print(f'{list_symbol[0]} {list_symbol[1]}{list_symbol[2]}{list_symbol[3]} {list_symbol[4]} {list_symbol[5]}'
+      f'{list_symbol[6]}{list_symbol[7]} {list_symbol[8]} {list_symbol[9]} {list_symbol[10]} {list_symbol[11]} '
+      f'{list_symbol[12]}{list_symbol[13]}{list_symbol[14]} {list_symbol[15]}')
